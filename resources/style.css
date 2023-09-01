@@ -5,11 +5,11 @@
 }
 
 body{
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
 }
 
 header{
-    background-color: orange;
+    background-color: rgb(17, 36, 201);
     height: 80px;
     display: flex;
     justify-content: flex-start;
@@ -29,6 +29,7 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
+    background-color: black;
 }
 
 nav li{
@@ -58,8 +59,10 @@ main{
 }
 
 section{
-    border: 1px solid #18f0ff;
-    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
 }
 
 
@@ -73,6 +76,31 @@ li a{
     text-decoration: none;
     border: 2px solid #18f0ff;
     border-radius: 100px;
+    padding: 10px;
 
     
+}
+
+.background-filmes{
+background-image: url('./img/back-to-the-future_jz8-920x571.jpg');
+}
+
+.filmes{
+    border: 1px solid #18f0ff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    color: white;
+}
+
+.filmes a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Orbitron', sans-serif;;
+}
+
+.filmes p{
+    padding-left: 20%;
+    padding-right: 20%;
 }
